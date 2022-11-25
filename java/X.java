@@ -1,5 +1,5 @@
-public class X implements C{
-    public void foo(){
-        System.out.println("foo desde X");
+public class X {
+    public A foo(B val){
+        return val;
     }
 }
