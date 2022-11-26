@@ -1,7 +1,7 @@
 public class X {
 
-    public B foo(){
-        System.out.println("foo in B,");
+    public B foo(B val){
+        System.out.println("foo in B, Parameter B");
         return new BClass();
 
 

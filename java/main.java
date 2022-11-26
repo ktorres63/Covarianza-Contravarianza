@@ -4,7 +4,7 @@ public class main{
         X xval = new X();
         Y yval = new Y();
 
-        xval.foo();
-        yval.foo();
+        xval.foo(new BClass());
+        yval.foo(new BClass());
     }
 }
