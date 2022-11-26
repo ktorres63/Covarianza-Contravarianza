@@ -1,7 +1,7 @@
 public class Y extends X{
     @Override
-    public C foo(B val){
-        System.out.println("foo in C, parameter B");
+    public B foo(B val){
+        System.out.println("foo in B, Parameter C(main)");
         return new CClass();
     }
 

@@ -5,6 +5,6 @@ public class main{
         Y yval = new Y();
 
         xval.foo(new BClass());
-        yval.foo(new BClass());
+        yval.foo(new CClass());
     }
 }
