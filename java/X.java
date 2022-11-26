@@ -1,5 +1,9 @@
 public class X {
-    public A foo(B val){
+
+    public B foo(B val){
+        System.out.println("foo in B, parameter B");
         return val;
+
+
     }
 }
