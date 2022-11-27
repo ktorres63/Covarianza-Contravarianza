@@ -1,11 +1,12 @@
 #include <iostream>
 #include "X.cc"
 #include "B.h"
+#include "A.h"
+#include "C.h"
 class Y : public X{
-        //B * bval = new B();
-        public:
-        B* foo(B* val){
-            std::cout << "Y:foo in B, Parameter B\n";
-            return val;
-        }
+public:
+  B *foo(C *val) {
+    std::cout << "Y:foo in B, Parameter C\n";
+    return val;
+  }
 };

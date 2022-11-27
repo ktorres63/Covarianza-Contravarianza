@@ -1,13 +1,13 @@
 #include <iostream>
 #include "B.h"
+#include "C.h"
+#include "A.h"
 
-class X{
-
-    //B* bval = new B();
-    public:
-        virtual B* foo(B* val){
-            std::cout << "X:foo in B, Parameter B\n" << "\n";
-            return val;
-        }
-
+class X {
+public:
+  virtual B *foo(B *val) {
+    std::cout << "X:foo in B, Parameter C\n"
+              << "\n";
+    return val;
+  }
 };
