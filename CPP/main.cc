@@ -15,7 +15,7 @@ int main() {
   C *valC = new C();
 
   valX->foo(valB);
-  valY->foo(valB);
+  valY->foo(valA);
 
   return 0;
 }

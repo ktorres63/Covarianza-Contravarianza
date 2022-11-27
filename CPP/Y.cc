@@ -5,8 +5,8 @@
 #include "C.h"
 class Y : public X{
 public:
-  A *foo(B *val) {
-    std::cout << "Y:foo in A, Parameter B\n";
-    return new A();
+  C *foo(A *val) {
+    std::cout << "Y:foo in C, Parameter A\n";
+    return new C();
   }
 };
