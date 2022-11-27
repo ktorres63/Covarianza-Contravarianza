@@ -17,6 +17,5 @@ int main() {
   valX->foo(valB);
   valY->foo(valC);
 
-  std::cout << "Hola, mundo\n";
   return 0;
 }
