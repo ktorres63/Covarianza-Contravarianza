@@ -1,0 +1,10 @@
+|a b c x y|
+a:= Aclass new.
+b:= Bclass1 new.
+c:= Cclass1 new.
+
+x:= Xclass new.
+y:= Yclass new.
+
+x foo: b.
+y foo: a.
